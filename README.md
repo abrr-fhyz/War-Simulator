@@ -25,12 +25,14 @@ This application simulates the Bangladesh Liberation War, focusing on the conven
   The major sources utilized for this simulation are available on the ```Sources.txt``` file.
 
 ## Running the Application:
-- Edit the `./build` and `./run` files for fast compilation and build using the direct address of JavaFX libraries, or use Maven/Gradle. If not using Maven/Gradle, follow the steps below:
+- TThis project uses a hardcoded batch script for compilation and execution to enable faster reload times. You can use the same scripts by editing the `./build` and `./run` files with the direct paths to the installed JavaFX libraries. For better compatibility, a Maven build file may be added soon. If you're not using Maven or Gradle, follow the steps below:
 - To **build** the simulator, run:
   ```bash
   ./build
   ```
+  This will compile and update any changes made to the files and then run the application.
 - To **run** the simulator, execute:
   ```bash
   ./run
   ```
+  If already compiled once and no new edits have been added, then this is preferred.
